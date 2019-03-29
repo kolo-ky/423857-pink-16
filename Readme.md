@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Александр Колосовский](https://up.htmlacademy.ru/adaptive/16/user/423857).
-* Наставник: `Неизвестно`.
+* Наставник: Дмитрий Батманов.
 
 ---
 
