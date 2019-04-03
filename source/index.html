@@ -5,8 +5,94 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
+    <header class="main-header">
+      <a class="main-header__logo">
+        <img src="images/logo.svg" width="75px" height="22px" alt="Pink" class="main-header__logo-image">
+      </a>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <ul class="main-nav__list header-list">
+          <li class="header-list__item header-list__current">
+            <a>Главная</a>
+          </li>
+          <li class="header-list__item">
+            <a href="photos.html">Фотографии</a>
+          </li>
+          <li class="header-list__item">
+            <a href="contest.html">Конкурс</a>
+          </li>
+          <li class="header-list__item">
+            <a href="#">HTML Академия</a>
+          </li>
+        </ul>
+      </nav>
 
+      <div class="platforms">
+        <a href="#" class="platforms__link">Скачать приложение</a>
+
+        <ul class="platforms-list">
+          <li class="platforms-list__item platforms-list__item--apple">
+            Приложение для apple
+          </li>
+          <li class="platforms-list__item platforms-list__item--android">
+            Приложение для android
+          </li>
+          <li class="platforms-list__item platforms-list__item--windows">
+            Приложение для windows
+          </li>
+        </ul>
+
+        <p class="platforms__legend">
+          Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+        </p>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="mission">
+        <h2 class="visually-hidden">Миссия нашего приложения</h2>
+
+        <header class="mission__header">
+          <p class="mission__header__item">
+            Устали от серости мегаполиса?
+          </p>
+
+          <p class="mission__header__item">
+            Нам есть, что вам
+            предложить!
+          </p>
+        </header>
+
+        <ul class="mission-list">
+          <li class="mission-list__item">
+            <span class="mission-list__title">
+              Поднимает настроение
+            </span>
+            <p class="mission-list__description">
+              Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+            </p>
+          </li>
+
+          <li class="mission-list__item">
+            <span class="mission-list__title">
+              Меняет мир вокруг
+            </span>
+            <p class="mission-list__description">
+              Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+            </p>
+          </li>
+
+          <li class="mission-list__item">
+            <span class="mission-list__title">
+              Заводит новых друзей
+            </span>
+            <p class="mission-list__description">
+              Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
