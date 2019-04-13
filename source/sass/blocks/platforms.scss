@@ -1,0 +1,24 @@
+.platforms {
+  font-size: $font-size-small;
+  line-height: $font-primary-line-height;
+  color: $font-secondary-color;
+  background-color: $bg-secondary;
+}
+
+.platforms__link {
+  font-family: $font-weight-bold, $font-default, sans-serif;
+  font-size: $font-size-small;
+  line-height: $font-bold-line-height;
+  color: inherit;
+  text-decoration: none;
+}
+
+.platforms-list {
+  @include no-list-style();
+}
+
+.platforms__legend {
+  font-family: $font-weight-light, $font-default, sans-serif;
+  font-size: $font-size-medium;
+  line-height: $font-bold-line-height;
+}

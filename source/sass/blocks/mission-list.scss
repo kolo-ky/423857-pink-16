@@ -1,0 +1,14 @@
+.mission-list {
+  @include no-list-style();
+  font-family: $font-weight-regular, $font-default, sans-serif;
+  font-size: $font-size-small;
+  line-height: $font-primary-line-height;
+  color: $font-primary-color;
+  background-color: $bg-secondary-dark;
+}
+
+.mission-list__title {
+  font-family: $font-weight-bold, $font-default, sans-serif;
+  font-size: $font-size-lg;
+  line-height: normal;
+}

@@ -1,0 +1,29 @@
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+
+  font-family: $font-weight-regular, $font-default, sans-serif;
+  font-size: $font-size-small;
+  line-height: $font-primary-line-height;
+  color: $font-primary-color;
+  font-style: normal;
+
+  background-color: $bg-primary;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

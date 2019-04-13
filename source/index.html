@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>HTML Academy: Пинк</title>
+</head>
+<body>
+  <div class="site-wrapper">
     <header class="main-header">
-      <a class="logo">
-        <img src="images/logo.svg" width="75px" height="22px" alt="Pink" class="logo-image">
-      </a>
-
       <nav class="main-nav">
+        <a class="logo">
+          <img src="./img/logo-pink-white-mobile.svg" width="75px" height="22px" alt="Pink" class="logo__image">
+        </a>
         <button class="main-nav__toggle" type="button">Открыть меню</button>
         <ul class="main-nav__list menu-list">
           <li class="menu-list__item menu-list__item--current">
@@ -28,7 +29,13 @@
         </ul>
       </nav>
 
-      <div class="platforms">
+      <div class="page-title">
+        <h1 class="page-title__text visually-hidden">Суть проекта Pink</h1>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="platforms">
         <a href="#" class="platforms__link">Скачать приложение</a>
 
         <ul class="platforms-list">
@@ -46,13 +53,8 @@
         <p class="platforms__legend">
           Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
         </p>
-      </div>
-    </header>
-
-    <main class="page-main">
+      </section>
       <section class="mission">
-        <h1 class="visually-hidden">Суть проекта Pink</h1>
-
         <div class="mission__header">
           <p class="mission__item">
             Устали от серости мегаполиса?
@@ -94,5 +96,6 @@
         </ul>
       </section>
     </main>
-  </body>
+  </div>
+</body>
 </html>
