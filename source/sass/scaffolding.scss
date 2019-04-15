@@ -3,13 +3,14 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: $font-weight-regular, $font-default, sans-serif;
-  font-size: $font-size-small;
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: $font-size-s;
   line-height: $font-primary-line-height;
-  color: $font-primary-color;
+  color: $granite-gray;
   font-style: normal;
 
-  background-color: $bg-primary;
+  background-color: $white;
 }
 
 img {
