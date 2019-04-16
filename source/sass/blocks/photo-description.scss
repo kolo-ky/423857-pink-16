@@ -1,0 +1,18 @@
+.photo-description {
+  background-color: $smoky-white;
+}
+
+.photo-description__author {
+  font-weight: 700;
+}
+
+.photo-description__post-time {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.photo-description__like {
+  font-size: $font-size-xs;
+  color: $pink;
+  text-transform: uppercase;
+}

@@ -1,0 +1,11 @@
+.gallery {
+  background-color: $white;
+}
+
+.gallery__description {
+  line-height: $font-secondary-md-line-height;
+}
+
+.photos-list {
+  @include no-list-style();
+}

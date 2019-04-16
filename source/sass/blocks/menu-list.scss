@@ -1,0 +1,11 @@
+.menu-list {
+  @include no-list-style();
+  color: $white;
+}
+
+.menu-list__item a {
+  color: inherit;
+  font-size: $font-size-m;
+  line-height: $font-secondary-line-height;
+  text-decoration: none;
+}
