@@ -1,4 +1,10 @@
 .main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+  /*временно для сетки*/
+  height: 284px;
   background-color: $white;
 }
 

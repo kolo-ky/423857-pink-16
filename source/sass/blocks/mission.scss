@@ -1,6 +1,19 @@
+.mission {
+  padding-top: 40px;
+}
+
 .mission__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-weight: 300;
   font-size: $font-size-lg;
   line-height: normal;
   color: $granite-gray;
+}
+
+.mission__item {
+  padding: 0;
+  margin: 0 0 30px 0;
+  text-align: center;
 }

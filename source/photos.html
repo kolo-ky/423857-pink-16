@@ -8,16 +8,20 @@
 <body>
   <div class="site-wrapper">
     <header class="main-header">
-      <nav class="main-nav">
-        <a href="index.html" class="logo">
+      <nav class="main-nav main-nav--opened">
+        <a href="index.html" class="main-nav__logo logo">
           <img src="./img/logo-pink-white-mobile.svg" width="75px" height="22px" alt="Pink" class="logo__image">
         </a>
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
+
         <ul class="main-nav__list menu-list">
-          <li class="menu-list__item menu-list__item--current">
+          <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+
+          <li class="menu-list__item">
             <a href="index.html">Главная</a>
           </li>
-          <li class="menu-list__item">
+          <li class="menu-list__item menu-list__item--current">
             <a>Фотографии</a>
           </li>
           <li class="menu-list__item">
@@ -30,7 +34,7 @@
       </nav>
 
       <div class="page-title page-title--inner">
-        <h1 class="page-title__text">Фотографии пользователей</h1>
+        <h1 class="page-title__text">Фотографии<br> пользователей</h1>
       </div>
     </header>
 
@@ -44,7 +48,7 @@
         <ul class="photos-list">
           <li class="photos-list__item photos-list__item--best-photo">
             <figure class="photo-box">
-              <img src="img/panorama.png" width="320px" height="137px" alt="Панорама дня" class="photo-box__image">
+              <img src="img/panorama-mobile@1x.jpg" width="320px" height="137px" alt="Панорама дня" class="photo-box__image">
               <figcaption class="photo-box__caption">Панорама дня</figcaption>
             </figure>
 
@@ -71,7 +75,7 @@
           </li>
 
           <li class="photos-list__item">
-            <img src="img/car.png" width="280px" height="180px" alt="Мое авто" class="photos-list__image">
+            <img src="img/photo-car-mobile@1x.jpg" width="280px" height="180px" alt="Мое авто" class="photos-list__image">
 
             <div class="photo-description">
               <p class="photo-description__info">
@@ -95,7 +99,7 @@
           </li>
 
           <li class="photos-list__item">
-            <img src="img/bahcha.png" width="280px" height="180px" alt="Бахча в мире" class="photos-list__image">
+            <img src="img/photo-fair-mobile@1x.jpg" width="280px" height="180px" alt="Бахча в мире" class="photos-list__image">
 
             <div class="photo-description">
               <p class="photo-description__info">
@@ -119,7 +123,7 @@
           </li>
 
           <li class="photos-list__item">
-            <img src="img/mountain.png" width="280px" height="180px" alt="В горах" class="photos-list__image">
+            <img src="img/photo-pov-mobile@1x.jpg" width="280px" height="180px" alt="В горах" class="photos-list__image">
 
             <div class="photo-description">
               <p class="photo-description__info">
@@ -143,7 +147,7 @@
           </li>
 
           <li class="photos-list__item">
-            <img src="img/plain.png" width="280px" height="180px" alt="Крыло самолета" class="photos-list__image">
+            <img src="img/photo-wing-mobile@1x.jpg" width="280px" height="180px" alt="Крыло самолета" class="photos-list__image">
 
             <div class="photo-description">
               <p class="photo-description__info">

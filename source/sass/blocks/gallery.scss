@@ -3,9 +3,9 @@
 }
 
 .gallery__description {
+  margin: 0 auto;
+  padding: 50px 20px;
+  width: 250px;
   line-height: $font-secondary-md-line-height;
-}
-
-.photos-list {
-  @include no-list-style();
+  text-align: center;
 }

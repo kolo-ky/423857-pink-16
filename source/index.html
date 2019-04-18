@@ -8,12 +8,16 @@
 <body>
   <div class="site-wrapper">
     <header class="main-header">
-      <nav class="main-nav">
-        <a class="logo">
+      <nav class="main-nav main-nav--closed main-nav--nojs">
+        <a class="main-nav__logo logo">
           <img src="./img/logo-pink-white-mobile.svg" width="75px" height="22px" alt="Pink" class="logo__image">
         </a>
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
+
         <ul class="main-nav__list menu-list">
+          <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+
           <li class="menu-list__item menu-list__item--current">
             <a>Главная</a>
           </li>
@@ -24,7 +28,7 @@
             <a href="contest.html">Конкурс</a>
           </li>
           <li class="menu-list__item">
-            <a href="#">HTML Академия</a>
+            <a href="#">HTML Academy</a>
           </li>
         </ul>
       </nav>
@@ -40,13 +44,13 @@
 
         <ul class="platforms-list">
           <li class="platforms-list__item platforms-list__item--apple">
-            Приложение для apple
+            <span class="visually-hidden">Приложение для apple</span>
           </li>
           <li class="platforms-list__item platforms-list__item--android">
-            Приложение для android
+            <span class="visually-hidden">Приложение для android</span>
           </li>
           <li class="platforms-list__item platforms-list__item--windows">
-            Приложение для windows
+            <span class="visually-hidden">Приложение для windows</span>
           </li>
         </ul>
 
@@ -57,11 +61,11 @@
       <section class="mission">
         <div class="mission__header">
           <p class="mission__item">
-            Устали от серости мегаполиса?
+            Устали от серости<br> мегаполиса?
           </p>
 
           <p class="mission__item">
-            Нам есть, что вам
+            Нам есть, что вам<br>
             предложить!
           </p>
         </div>
@@ -72,7 +76,7 @@
               Поднимает настроение
             </span>
             <p class="mission-list__description">
-              Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+              Приложение позволит вам победить<br> осеннюю хандру и депрессию<br> буквально в несколько кликов!
             </p>
           </li>
 
@@ -81,7 +85,7 @@
               Меняет мир вокруг
             </span>
             <p class="mission-list__description">
-              Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
+              Сделайте снимок и украсьте его<br> смайликом или текстовой подписью,<br> чтобы усилить эффект
             </p>
           </li>
 
@@ -90,7 +94,7 @@
               Заводит новых друзей
             </span>
             <p class="mission-list__description">
-              Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+              Ставьте лайки, комментируйте,<br> делитесь фотографиями с друзьями и<br> заводите новых
             </p>
           </li>
         </ul>

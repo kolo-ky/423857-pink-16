@@ -1,0 +1,20 @@
+.photo-box {
+  position: relative;
+  margin: 0;
+}
+
+.photo-box__image {
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.photo-box__caption {
+  position: absolute;
+  padding: 10px 20px 12px 20px;
+  top: 0;
+  right: 20px;
+  color: $white;
+  text-transform: uppercase;
+  background-color: $pink;
+}
