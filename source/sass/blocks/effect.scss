@@ -1,0 +1,45 @@
+.effect {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {
+  .effect {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 50px 95px 0;
+    padding: 0 20px;
+    background-image: url("../../img/timer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 20px center;
+  }
+
+  .effect__wrap {
+    width: 266px;
+  }
+
+  .effect__title {
+    display: block;
+    width: 135px;
+    font-weight: 700;
+    font-size: $font-size-lg;
+    line-height: $font-secondary-line-height;
+  }
+
+  .effect__link {
+    color: $pink;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .effect {
+    justify-content: center;
+    background-color: $smoky-white;
+    margin: 0;
+  }
+
+  .effect__wrap {
+    margin: 0 auto;
+  }
+}

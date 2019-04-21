@@ -67,3 +67,29 @@
     color: $opacity-pink;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .menu-list {
+    flex-direction: row;
+    font-weight: 400;
+    font-size: $font-size-m;
+  }
+
+  .menu-list__item {
+    width: auto;
+    margin-right: 80px;
+
+    &::before {
+      display: none;
+    }
+
+    &::after {
+      display: none;
+    }
+
+    &:last-child {
+      box-shadow: none;
+      margin-right: 0;
+    }
+  }
+}

@@ -1,5 +1,6 @@
 .mission {
   padding-top: 40px;
+  padding-bottom: 60px;
 }
 
 .mission__header {
@@ -16,4 +17,29 @@
   padding: 0;
   margin: 0 0 30px 0;
   text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .mission__item {
+    font-size: $font-size-ex-lg;
+    margin: 0;
+
+    &:first-child br {
+      display: none;
+    }
+
+    &:last-child {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .mission {
+    background-color: $smoky-white;
+  }
+  .mission__item {
+    font-size: $font-size-max;
+    margin: 0;
+  }
 }

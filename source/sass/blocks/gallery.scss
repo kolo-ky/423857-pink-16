@@ -9,3 +9,11 @@
   line-height: $font-secondary-md-line-height;
   text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+  .gallery__description {
+    padding: 95px 20px 75px 20px;
+    width: 500px;
+    font-size: $font-size-m;
+  }
+}

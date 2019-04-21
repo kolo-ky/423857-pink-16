@@ -2,13 +2,14 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
   <title>HTML Academy: Пинк</title>
 </head>
 <body>
   <div class="site-wrapper">
     <header class="main-header">
-      <nav class="main-nav main-nav--closed main-nav--nojs">
+      <nav class="main-nav main-nav--opened">
         <a class="main-nav__logo logo">
           <img src="./img/logo-pink-white-mobile.svg" width="75px" height="22px" alt="Pink" class="logo__image">
         </a>
@@ -32,31 +33,32 @@
           </li>
         </ul>
       </nav>
-
-      <div class="page-title">
-        <h1 class="page-title__text visually-hidden">Суть проекта Pink</h1>
-      </div>
     </header>
 
     <main class="page-main">
-      <section class="platforms">
-        <a href="#" class="platforms__link">Скачать приложение</a>
+      <section class="banner">
 
-        <ul class="platforms-list">
-          <li class="platforms-list__item platforms-list__item--apple">
-            <span class="visually-hidden">Приложение для apple</span>
-          </li>
-          <li class="platforms-list__item platforms-list__item--android">
-            <span class="visually-hidden">Приложение для android</span>
-          </li>
-          <li class="platforms-list__item platforms-list__item--windows">
-            <span class="visually-hidden">Приложение для windows</span>
-          </li>
-        </ul>
+        <div class="banner__promo">
+          <h2 class="banner__title banner__title--main">Взгляните на жизнь иначе!</h2>
 
-        <p class="platforms__legend">
-          Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
-        </p>
+          <a href="#" class="banner__link">Скачать приложение</a>
+
+          <ul class="banner-list">
+            <li class="banner-list__item banner-list__item--apple">
+              <span class="visually-hidden">Приложение для apple</span>
+            </li>
+            <li class="banner-list__item banner-list__item--android">
+              <span class="visually-hidden">Приложение для android</span>
+            </li>
+            <li class="banner-list__item banner-list__item--windows">
+              <span class="visually-hidden">Приложение для windows</span>
+            </li>
+          </ul>
+
+          <p class="banner-list__legend">
+            Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+          </p>
+        </div>
       </section>
       <section class="mission">
         <div class="mission__header">
@@ -76,7 +78,7 @@
               Поднимает настроение
             </span>
             <p class="mission-list__description">
-              Приложение позволит вам победить<br> осеннюю хандру и депрессию<br> буквально в несколько кликов!
+              Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
             </p>
           </li>
 
@@ -85,7 +87,7 @@
               Меняет мир вокруг
             </span>
             <p class="mission-list__description">
-              Сделайте снимок и украсьте его<br> смайликом или текстовой подписью,<br> чтобы усилить эффект
+              Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект
             </p>
           </li>
 
@@ -94,10 +96,27 @@
               Заводит новых друзей
             </span>
             <p class="mission-list__description">
-              Ставьте лайки, комментируйте,<br> делитесь фотографиями с друзьями и<br> заводите новых
+              Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
             </p>
           </li>
         </ul>
+      </section>
+
+      <section class="effect">
+        <div class="effect__wrap">
+          <span class="effect__title">
+          Эффект на 24 часа!
+        </span>
+
+          <p class="effect__description">
+            Британские ученые провели исследования
+            и доказали, что положительный эффект
+            от использования приложения длится
+            целые сутки!
+          </p>
+
+          <a class="effect__link" href="#">Узнать больше об исследовании</a>
+        </div>
       </section>
     </main>
   </div>

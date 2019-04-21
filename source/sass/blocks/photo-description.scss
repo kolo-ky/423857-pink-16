@@ -1,7 +1,19 @@
 .photo-description {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   padding: 25px 17px;
-  background-color: $smoky-white;
   box-sizing: border-box;
+  background-color: $smoky-white;
+}
+
+.photo-description__info,
+.photo-description__text {
+  margin: 0;
+}
+
+.photo-description__text {
+  margin-bottom: 15px;
 }
 
 .photo-description__author {
@@ -14,7 +26,9 @@
 }
 
 .photo-description__like {
+  margin: auto 0 0 0;
   font-size: $font-size-xs;
   color: $pink;
   text-transform: uppercase;
 }
+
