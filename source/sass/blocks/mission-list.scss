@@ -163,6 +163,7 @@
     padding-bottom: 0;
     padding-top: 302px;
     margin-bottom: 0;
+    margin-right: 0;
 
     &::after {
       position: absolute;
@@ -177,10 +178,6 @@
       background-position: center center;
       content: "";
     }
-  }
-
-  .mission-list__item:last-child {
-    margin-right: 0;
   }
 
   .mission-list__title {
