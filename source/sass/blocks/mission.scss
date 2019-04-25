@@ -1,6 +1,5 @@
 .mission {
   padding-top: 40px;
-  padding-bottom: 60px;
 }
 
 .mission__header {
@@ -35,8 +34,8 @@
 }
 
 @media (min-width: $desktop-width) {
-  .mission {
-    background-color: $smoky-white;
+  .mission__header {
+    margin-bottom: 60px;
   }
 
   .mission__item {

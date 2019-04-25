@@ -26,8 +26,30 @@
 }
 
 .photo-description__like {
+  display: flex;
+  align-items: center;
   margin: auto 0 0 0;
   font-size: $font-size-xs;
   color: $pink;
   text-transform: uppercase;
+}
+
+.photo-description__like svg {
+  margin-right: 10px;
+}
+
+.photo-description__icon {
+  fill: $pink;
+}
+
+@media (min-width: $tablet-width) {
+  .photo-description__like {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .photo-description__like svg {
+    margin-right: 0;
+    order: 1;
+  }
 }
