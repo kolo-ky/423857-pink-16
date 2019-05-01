@@ -13,17 +13,28 @@
 
   .effect__wrap {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 300px;
+    justify-content: space-between;
     margin: 60px 0;
     width: 600px;
-    background-image: url("../../img/timer.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left center;
     box-sizing: border-box;
+
+    &::before {
+      display: block;
+      margin-right: 40px;
+      width: 438px;
+      height: 276px;
+      background-image: url("../../img/timer.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+      content: "";
+    }
+  }
+
+  .effect__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .effect__title {
@@ -58,19 +69,24 @@
 
   .effect__wrap {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 350px;
+    justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 50px;
     margin: 60px 0;
     width: 940px;
-    background-image: url("../../img/timer.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left center;
     box-sizing: border-box;
+
+    &::before {
+      display: block;
+      margin-right: 40px;
+      width: 538px;
+      height: 326px;
+      background-image: url("../../img/timer.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+      content: "";
+    }
   }
 
   .effect__title {

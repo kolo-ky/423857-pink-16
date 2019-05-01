@@ -8,19 +8,31 @@
   font-size: $font-size-s;
   line-height: $font-primary-line-height;
   color: $granite-gray;
-  background-color: $smoky-white;
   list-style: none;
 
   &::before {
     position: absolute;
-    top: -10px;
+    top: -15px;
     right: 0;
     z-index: -1;
     display: block;
     width: 100%;
-    height: 120px;
+    height: 60%;
     background-color: $smoky-white;
     transform: skewY(-4deg);
+    transform-origin: 100%;
+    content: "";
+  }
+
+  &::after {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 60%;
+    background-color: $smoky-white;
     content: "";
   }
 }
